@@ -1,0 +1,10 @@
+{
+	"name": "r/WGU Course Lookup",
+	"version": "0.1",
+	"description": "Shortcut for looking up WGU courses on r/WGU",
+	"manifest_version": 2,
+	"content_scripts": [{
+		"js": ["background.js"],
+		"matches": ["https://my.wgu.edu/degree-plan/*"]
+	}] 
+}
