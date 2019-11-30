@@ -4,6 +4,7 @@
 	"description": "Shortcut for looking up WGU courses on r/WGU",
 	"manifest_version": 2,
 	"content_scripts": [{
+		"run_at": "document_idle",
 		"js": ["background.js"],
 		"matches": ["https://my.wgu.edu/degree-plan/*"]
 	}] 
